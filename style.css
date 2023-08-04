@@ -1,0 +1,39 @@
+.p-style{
+    background-color: #4E423D;
+    color: aliceblue;
+}
+.nav-bg{
+background-color: #FFFFFF;
+}
+li{
+    font-weight: 700;
+}
+.secondNav button{
+    color: #4E423D;
+    font-weight: 600;
+}
+.shop img{
+    height: 190px;
+    width: 160px;
+    margin: 5px;
+}
+.cardDesign{
+    margin-top: 5px;
+}
+.shop p{
+    color: #4e423d;
+    font-weight: 600;
+}
+.banner{
+    background-color: #D2564F;
+    height: 50vh;
+    color: #FFFFFF;
+}
+.banner p{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner img{
+    height: 40vh;
+}
