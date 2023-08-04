@@ -1,39 +1,82 @@
-.p-style{
+.p-style {
     background-color: #4E423D;
     color: aliceblue;
 }
-.nav-bg{
-background-color: #FFFFFF;
+
+.nav-bg {
+    background-color: #FFFFFF;
 }
-li{
+
+li {
     font-weight: 700;
 }
-.secondNav button{
+
+.secondNav button {
     color: #4E423D;
     font-weight: 600;
 }
-.shop img{
+
+.shop img {
     height: 190px;
     width: 160px;
-    margin: 5px;
+
 }
-.cardDesign{
+
+.cardDesign {
     margin-top: 5px;
 }
-.shop p{
+
+.shop p {
     color: #4e423d;
     font-weight: 600;
 }
-.banner{
-    background-color: #D2564F;
+
+.banner {
+    background-color: #DA6F39;
     height: 50vh;
     color: #FFFFFF;
 }
-.banner p{
+
+.banner p {
     font-size: 30px;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.banner img{
-    height: 40vh;
+
+.banner img {
+    height: 30vh;
+    width: 390px;
+}
+
+.cardDesign img {
+    margin: 20px;
+}
+
+.cardDesign img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.category img {
+    width: 300px;
+    height: 200px;
+}
+
+.category p {
+    color: #4e423d;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.exclusive img {
+    width: 300px;
+    height: 200px;
+}
+
+.footerDesign {
+    background-color: #F5F3EB;
+}
+
+.footerDesign h6 {
+    color: #4e423d;
 }
