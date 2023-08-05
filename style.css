@@ -68,10 +68,50 @@ li {
     margin-top: 10px;
 }
 
-.exclusive img {
-    width: 300px;
-    height: 200px;
+.wrapper{
+    display: flex;
+  
 }
+.exclusive img {
+    width: 320px;
+    height: 280px;
+
+}
+
+.image{
+    position: relative;
+}
+/* img{
+    width: 100%;
+    display: block;
+    margin: auto;
+} */
+.content{
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+}
+
+
+.content p{
+    font-size: 18px;
+    text-align: justify;
+
+}
+
 
 .footerDesign {
     background-color: #F5F3EB;
